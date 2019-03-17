@@ -15,6 +15,7 @@ public class ProductResources{
 
     @GetMapping(value="/all")
     public List<Product> getAllProuct(){
+        //testing git
         return  productRepo.findAll();
     }
 
